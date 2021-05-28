@@ -15,16 +15,15 @@ import androidx.lifecycle.ViewModelProvider;
 import com.rsin.covisetu.R;
 
 
-public class HomeFragment extends Fragment {
-
+public class WarriorFragment extends Fragment {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-       //code here
+        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
+        final TextView textView = root.findViewById(R.id.text_notifications);
+        //code here
         return root;
     }
 }

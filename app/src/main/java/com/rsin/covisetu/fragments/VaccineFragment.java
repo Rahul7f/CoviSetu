@@ -15,7 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.rsin.covisetu.R;
 
 
-public class DashboardFragment extends Fragment {
+public class VaccineFragment extends Fragment {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
